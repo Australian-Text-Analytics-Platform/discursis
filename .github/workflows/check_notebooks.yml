@@ -1,0 +1,49 @@
+# This is a basic workflow to help you get started with Actions
+
+name: notebook_checks
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the main branch
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+      - name: Install conda
+        uses: s-weigand/setup-conda@v1
+        with:
+          python-version: "3.9"
+          activate-conda: true
+      - name: Setup conda environment
+        run: conda env create --file environment.yml
+      - name: Validate notebooks
+        # NOTE: probably need to run source activate for each CI step
+        run: |
+          source activate atap
+          find ./notebooks \
+            -name '*.ipynb' \
+            -not -path '*/.ipynb_checkpoints/*' \
+            | xargs -I file python validate_notebooks.py file
+      - name: Check code style with black
+        uses: marius-mather/black-check@jupyter
+        with:
+          black_flags: '--diff'
+      - name: Execute notebooks
+        run: |
+          source activate atap
+          pytest --nbmake notebooks
