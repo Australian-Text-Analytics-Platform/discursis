@@ -1,0 +1,30 @@
+name: atap
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  # Try to install everything via conda where possible,
+  #   makes for simpler and quicker installs
+  - python=3.9
+  - pandas
+  - matplotlib
+  - altair
+  - jupytext
+  - pre-commit
+  - black[jupyter]
+  - jupyterlab>=3.0
+  - pytest
+  - voila
+  - nbmake
+  - nbqa
+  - nbval
+  - nbformat
+  - spacy-model-en_core_web_sm>=3.1
+  - spacy-model-en_core_web_lg>=3.1
+  - click
+  - pip
+  - pip:
+      - convokit>=2.5.3
+      - atap_widgets>=0.1.13
+      - ldaca@git+https://github.com/Language-Research-Technology/ldaca-py.git
+      - voila-material@git+https://github.com/GLAM-Workbench/voila-material.git
