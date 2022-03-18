@@ -2,13 +2,12 @@
 
 Current version: [v0.0.0](https://github.com/Australian-Text-Analytics-Platform/atap-demos/releases/tag/v0.0.0)
 
-Demo notebooks for ATAP For more information see the [atap-demos](https://glam-workbench.net/atap-demos/) section of the GLAM Workbench.
+Demo notebooks for ATAP 
 
 ## Notebook topics
 
 * [Notebook title](notebook.ipynb) – this notebook does things
 
-See the [GLAM Workbench for more details](https://glam-workbench.github.io/atap-demos/).
 
 
 <!-- START RUN INFO -->
