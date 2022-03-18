@@ -68,7 +68,7 @@ Assuming you have recent versions of Python and Git installed, the steps might b
 * Install the necessary Python packages: `pip install -r requirements.txt`
 * Run Jupyter: `jupyter lab`
 
-See the [GLAM Workbench for [more details](https://glam-workbench.net/getting-started/#using-python-on-your-own-computer.
+See the GLAM Workbench documentation for [more details](https://glam-workbench.net/getting-started/#using-python-on-your-own-computer).
 
 <!-- END RUN INFO -->
 
