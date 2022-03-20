@@ -1,1 +1,6 @@
 jupyter serverextension enable voila --sys-prefix
+# install the bokeh server extension so that
+# bokeh launches at startup
+mv bokeh_server.py ${NB_PYTHON_PREFIX}/lib/python*/site-packages/
+# enable bokeh extension
+jupyter serverextension enable --sys-prefix bokeh_server
