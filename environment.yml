@@ -13,6 +13,8 @@ dependencies:
   - pre-commit
   - black[jupyter]
   - jupyterlab>=3.0
+  - bokeh
+  - jupyter_bokeh
   - pytest
   - voila
   - nbmake
