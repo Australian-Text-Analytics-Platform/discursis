@@ -26,6 +26,7 @@ dependencies:
   - pip
   - pip:
       - convokit>=2.5.3
+      - jupyter-server-proxy
       - atap_widgets>=0.1.13
       - ldaca@git+https://github.com/Language-Research-Technology/ldaca-py.git
       - voila-material@git+https://github.com/GLAM-Workbench/voila-material.git
