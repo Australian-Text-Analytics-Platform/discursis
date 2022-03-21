@@ -8,7 +8,6 @@ dependencies:
   - python=3.9
   - pandas
   - matplotlib
-  - altair
   - jupytext
   - pre-commit
   - black[jupyter]
@@ -16,7 +15,6 @@ dependencies:
   - bokeh
   - jupyter_bokeh
   - pytest
-  - voila
   - nbmake
   - nbqa
   - nbval
@@ -29,4 +27,3 @@ dependencies:
       - jupyter-server-proxy
       - atap_widgets>=0.1.14
       - ldaca@git+https://github.com/Language-Research-Technology/ldaca-py.git
-      - voila-material@git+https://github.com/GLAM-Workbench/voila-material.git
