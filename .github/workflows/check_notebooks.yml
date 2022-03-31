@@ -39,10 +39,6 @@ jobs:
             -name '*.ipynb' \
             -not -path '*/.ipynb_checkpoints/*' \
             | xargs -I file python validate_notebooks.py file
-      - name: Check code style with black
-        uses: marius-mather/black-check@jupyter
-        with:
-          black_flags: '--diff'
       - name: Execute notebooks
         run: |
           source activate atap
