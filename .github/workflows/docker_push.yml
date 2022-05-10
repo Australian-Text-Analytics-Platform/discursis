@@ -39,7 +39,7 @@ jobs:
         DOCKER_PASSWORD: ${{ secrets.QUAY_PASSWORD }}
         DOCKER_REGISTRY: "quay.io"
         BINDER_CACHE: true
-        IMAGE_NAME: marius_mather/${{ github.event.repository.name }}
+        IMAGE_NAME: ldaca_atap/${{ github.event.repository.name }}
 
     - name: Modify readme for DockerHub
       run: |

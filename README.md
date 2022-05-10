@@ -1,6 +1,6 @@
-# atap-demos
+# Discursis
 
-Current version: [v0.0.0](https://github.com/Australian-Text-Analytics-Platform/atap-demos/releases/tag/v0.0.0)
+Current version: [v0.0.0](https://github.com/Australian-Text-Analytics-Platform/discursis/releases/tag/v0.0.0)
 
 Demo notebooks for ATAP 
 
@@ -19,7 +19,7 @@ There are a number of different ways to use these notebooks. Binder is quickest 
 
 ### Using Binder
 
-[![Launch on Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Australian-Text-Analytics-Platform/atap-demos/master/?urlpath=lab/tree/index.md)
+[![Launch on Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Australian-Text-Analytics-Platform/discursis/master/?urlpath=lab/tree/index.md)
 
 Click on the button above to launch the notebooks in this repository using the [Binder](https://mybinder.org/) service (it might take a little while to load). This is a free service, but note that sessions will close if you stop using the notebooks, and no data will be saved. Make sure you download any changed notebooks or harvested data that you want to save.
 
@@ -27,7 +27,7 @@ See [Using Binder](https://glam-workbench.net/using-binder/) for more details.
 
 ### Using Reclaim Cloud
 
-[![Launch on Reclaim Cloud](https://glam-workbench.github.io/images/launch-on-reclaim-cloud.svg)](https://app.my.reclaim.cloud/?manifest=https://raw.githubusercontent.com/Australian-Text-Analytics-Platform/atap-demos/master/reclaim-manifest.jps)
+[![Launch on Reclaim Cloud](https://glam-workbench.github.io/images/launch-on-reclaim-cloud.svg)](https://app.my.reclaim.cloud/?manifest=https://raw.githubusercontent.com/Australian-Text-Analytics-Platform/discursis/master/reclaim-manifest.jps)
 
 [Reclaim Cloud](https://reclaim.cloud/) is a paid hosting service, aimed particularly at supported digital scholarship in hte humanities. Unlike Binder, the environments you create on Reclaim Cloud will save your data – even if you switch them off! To run this repository on Reclaim Cloud for the first time:
 
@@ -47,7 +47,7 @@ You can use Docker to run a pre-built computing environment on your own computer
 * Create a new directory for this repository and open it from the command line.
 * From the command line, run the following command:  
   ```
-  docker run -p 8888:8888 --name atap-demos -v "$PWD":/home/jovyan/work quay.io/marius_mather/atap-demos repo2docker-entrypoint jupyter lab --ip 0.0.0.0 --NotebookApp.token='' --LabApp.default_url='/lab/tree/index.ipynb'
+  docker run -p 8888:8888 --name discursis -v "$PWD":/home/jovyan/work quay.io/marius_mather/discursis repo2docker-entrypoint jupyter lab --ip 0.0.0.0 --NotebookApp.token='' --LabApp.default_url='/lab/tree/index.ipynb'
   ```
 * It will take a while to download and configure the Docker image. Once it's ready you'll see a message saying that Jupyter Notebook is running.
 * Point your web browser to `http://127.0.0.1:8888`
@@ -60,10 +60,10 @@ If you know your way around the command line and are comfortable installing soft
 
 Assuming you have recent versions of Python and Git installed, the steps might be something like:
 
-* Create a virtual environment, eg: `python -m venv atap-demos`
-* Open the new directory" `cd atap-demos`
+* Create a virtual environment, eg: `python -m venv discursis`
+* Open the new directory" `cd discursis`
 * Activate the environment `source bin/activate`
-* Clone the repository: `git clone https://github.com/Australian-Text-Analytics-Platform/atap-demos.git notebooks`
+* Clone the repository: `git clone https://github.com/Australian-Text-Analytics-Platform/discursis.git notebooks`
 * Open the new `notebooks` directory: `cd notebooks`
 * Install the necessary Python packages: `pip install -r requirements.txt`
 * Run Jupyter: `jupyter lab`
