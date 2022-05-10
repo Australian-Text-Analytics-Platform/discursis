@@ -1,6 +1,6 @@
 # Discursis
 
-Current version: [v0.0.0](https://github.com/Australian-Text-Analytics-Platform/discursis/releases/tag/v0.0.0)
+Current version: [v0.0.1](https://github.com/Australian-Text-Analytics-Platform/discursis/releases/tag/v0.0.1)
 
 Demo notebooks for ATAP 
 

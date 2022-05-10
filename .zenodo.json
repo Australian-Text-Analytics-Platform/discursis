@@ -5,7 +5,7 @@
   "related_identifiers": [
     {
       "scheme": "url",
-      "identifier": "https://github.com/Australian-Text-Analytics-Platform/atap-demos/tree/v0.0.0",
+      "identifier": "https://github.com/Australian-Text-Analytics-Platform/atap-demos/tree/v0.0.1",
       "relation": "isDerivedFrom",
       "resource_type": "software"
     },
@@ -22,22 +22,22 @@
       "resource_type": "other"
     }
   ],
-  "version": "v0.0.0",
+  "version": "v0.0.1",
   "upload_type": "software",
   "keywords": [
     "digital humanities",
     "Jupyter",
     "GLAM Workbench"
   ],
-  "publication_date": "2022-03-17",
+  "publication_date": "2022-05-10",
   "creators": {
     "creator_list": [
-        {
-            "name": "Mather, Marius",
-            "orcid": "0000-0002-3616-6235 "
-        }
+      {
+        "name": "Mather, Marius",
+        "orcid": "0000-0002-3616-6235 "
+      }
     ]
-},
+  },
   "access_right": "open",
-  "description": ""
+  "description": "<p>Current version: <a href=\"https://github.com/Australian-Text-Analytics-Platform/discursis/releases/tag/v0.0.0\">v0.0.0</a></p> <p>Demo notebooks for ATAP</p> <h2 id=\"notebook-topics\">Notebook topics</h2> <ul> <li>Notebook title – this notebook does things</li> </ul>"
 }
