@@ -7,6 +7,7 @@ dependencies:
   #   makes for simpler and quicker installs
   - python=3.9
   - pandas
+  - openpyxl
   - matplotlib
   - jupytext
   - pre-commit
@@ -26,5 +27,5 @@ dependencies:
   - pip:
       - convokit>=2.5.3
       - jupyter-server-proxy
-      - atap_widgets==0.2.3-alpha.1
+      - atap_widgets==0.2.3-alpha.5
       #- ldaca@git+https://github.com/Language-Research-Technology/ldaca-py.git
