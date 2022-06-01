@@ -6,8 +6,7 @@ Demo notebooks for ATAP
 
 ## Notebook topics
 
-* [Notebook title](notebook.ipynb) – this notebook does things
-
+* Intro to Discursis: [![Launch on Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Australian-Text-Analytics-Platform/discursis/master/?urlpath=lab/tree/notebooks/discursis_workshop.ipynb)
 
 
 <!-- START RUN INFO -->
@@ -25,19 +24,6 @@ Click on the button above to launch the notebooks in this repository using the [
 
 See [Using Binder](https://glam-workbench.net/using-binder/) for more details.
 
-### Using Reclaim Cloud
-
-[![Launch on Reclaim Cloud](https://glam-workbench.github.io/images/launch-on-reclaim-cloud.svg)](https://app.my.reclaim.cloud/?manifest=https://raw.githubusercontent.com/Australian-Text-Analytics-Platform/discursis/master/reclaim-manifest.jps)
-
-[Reclaim Cloud](https://reclaim.cloud/) is a paid hosting service, aimed particularly at supported digital scholarship in hte humanities. Unlike Binder, the environments you create on Reclaim Cloud will save your data – even if you switch them off! To run this repository on Reclaim Cloud for the first time:
-
-* Create a [Reclaim Cloud](https://reclaim.cloud/) account and log in.
-* Click on the button above to start the installation process.
-* A dialogue box will ask you to set a password, this is used to limit access to your Jupyter installation.
-* Sit back and wait for the installation to complete!
-* Once the installation is finished click on the 'Open in Browser' button of your newly created environment (note that you might need to wait a few minutes before everything is ready).
-
-See [Using Reclaim Cloud](https://glam-workbench.net/using-reclaim-cloud/) for more details.
 
 ### Using Docker
 
