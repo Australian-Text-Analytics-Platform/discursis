@@ -28,4 +28,3 @@ dependencies:
       - convokit>=2.5.3
       - jupyter-server-proxy
       - atap_widgets>=0.2.9
-      #- ldaca@git+https://github.com/Language-Research-Technology/ldaca-py.git
