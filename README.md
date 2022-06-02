@@ -44,14 +44,14 @@ See [Using Docker](https://glam-workbench.net/using-docker/) for more details.
 
 If you know your way around the command line and are comfortable installing software, you might want to set up your own computer to run these notebooks.
 
-Assuming you have recent versions of Python and Git installed, the steps might be something like:
+You need to install Git, and the [Anaconda Python distribution](https://www.anaconda.com/products/distribution).
 
-* Create a virtual environment, eg: `python -m venv discursis`
-* Open the new directory" `cd discursis`
-* Activate the environment `source bin/activate`
-* Clone the repository: `git clone https://github.com/Australian-Text-Analytics-Platform/discursis.git notebooks`
-* Open the new `notebooks` directory: `cd notebooks`
-* Install the necessary Python packages: `pip install -r requirements.txt`
+Then the steps to set up an environment with all the required packages are:
+
+* Clone the repository: `git clone https://github.com/Australian-Text-Analytics-Platform/discursis.git`
+* Change to the `discursis` directory: `cd discursis`
+* Create the environment: `conda env create -f environment.yml`
+* Activate the environment: `conda activate discursis`
 * Run Jupyter: `jupyter lab`
 
 See the GLAM Workbench documentation for [more details](https://glam-workbench.net/getting-started/#using-python-on-your-own-computer).
