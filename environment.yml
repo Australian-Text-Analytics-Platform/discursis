@@ -13,6 +13,7 @@ dependencies:
   - pre-commit
   - black[jupyter]
   - jupyterlab>=3.0
+  - jupyter-server-proxy
   - bokeh
   - jupyter_bokeh
   - pytest
@@ -20,11 +21,13 @@ dependencies:
   - nbqa
   - nbval
   - nbformat
+  - spacy
+  - textacy
   - spacy-model-en_core_web_sm>=3.1
   # click 8.1+ is currently incompatible with spacy
   - click==8.0.4
   - pip
   - pip:
-      - convokit>=2.5.3
-      - jupyter-server-proxy
+     # TODO: install this through conda once it's a bit more
+     #   stable
       - atap_widgets>=0.2.21
