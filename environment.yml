@@ -30,3 +30,5 @@ dependencies:
      # TODO: install this through conda once it's a bit more
      #   stable
       - atap_widgets>=0.2.23
+variables:
+  BINDER_EXTERNAL_URL: https://notebooks.gesis.org/
