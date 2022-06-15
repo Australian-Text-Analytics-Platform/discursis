@@ -4,3 +4,5 @@ services:
     image: quay.io/ldaca_atap/discursis
     ports:
       - "8888:8888"
+    environment:
+      - BINDER_EXTERNAL_URL=https://notebooks.gesis.org/
