@@ -6,7 +6,7 @@ Demo notebooks for ATAP
 
 ## Notebook topics
 
-* Intro to Discursis: [![Launch on Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Australian-Text-Analytics-Platform/discursis/master/?urlpath=lab/tree/notebooks/discursis_workshop.ipynb)
+* Intro to Discursis: [![Launch on Binder](https://mybinder.org/badge_logo.svg)](https://gke.mybinder.org/v2/gh/Australian-Text-Analytics-Platform/discursis/master/?urlpath=lab/tree/notebooks/discursis_workshop.ipynb)
 
 
 <!-- START RUN INFO -->
@@ -18,7 +18,7 @@ There are a number of different ways to use these notebooks. Binder is quickest 
 
 ### Using Binder
 
-[![Launch on Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Australian-Text-Analytics-Platform/discursis/master/?urlpath=lab/tree/index.md)
+[![Launch on Binder](https://gke.mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Australian-Text-Analytics-Platform/discursis/master/?urlpath=lab/tree/index.md)
 
 Click on the button above to launch the notebooks in this repository using the [Binder](https://mybinder.org/) service (it might take a little while to load). This is a free service, but note that sessions will close if you stop using the notebooks, and no data will be saved. Make sure you download any changed notebooks or harvested data that you want to save.
 
