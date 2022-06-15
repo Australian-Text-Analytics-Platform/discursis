@@ -29,4 +29,4 @@ dependencies:
   - pip:
      # TODO: install this through conda once it's a bit more
      #   stable
-      - atap_widgets>=0.2.22
+      - atap_widgets>=0.2.23
