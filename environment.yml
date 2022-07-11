@@ -22,13 +22,16 @@ dependencies:
   - nbval
   - nbformat
   - spacy
-  - textacy
   - spacy-model-en_core_web_sm>=3.1
   - click
   - pip
+  - sentencepiece
   - pip:
      # TODO: install this through conda once it's a bit more
      #   stable
+      - transformers
+      - tokenizers
       - atap_widgets>=0.2.23
+      - textacy
 variables:
   BINDER_EXTERNAL_URL: https://notebooks.gesis.org/
