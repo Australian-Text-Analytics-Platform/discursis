@@ -1,13 +1,20 @@
-# Discursis
+# Intro to Discursis workshop
 
-Current version: [v0.0.1](https://github.com/Australian-Text-Analytics-Platform/discursis/releases/tag/v0.0.1)
+This repository contains material for a short workshop introducing the (new) Discursis tool,
+an analysis and visualisation tool for conversational data.
 
-Demo notebooks for ATAP 
+If you want to install and use the Discursis tool in your own projects, see 
+the [atap_widgets](https://github.com/Australian-Text-Analytics-Platform/atap_widgets)
+package.
 
-## Notebook topics
+## Notebooks
+
+Click the Binder badge to open the notebook directly in Binder, a free online platform for hosting
+Jupyter notebooks:
 
 * Intro to Discursis: [![Launch on Binder](https://mybinder.org/badge_logo.svg)](https://notebooks.gesis.org/binder/v2/gh/Australian-Text-Analytics-Platform/discursis/master/?urlpath=lab/tree/notebooks/discursis_workshop.ipynb)
 
+Current version: [v0.0.1](https://github.com/Australian-Text-Analytics-Platform/discursis/releases/tag/v0.0.1)
 
 <!-- START RUN INFO -->
 
@@ -58,3 +65,4 @@ See the GLAM Workbench documentation for [more details](https://glam-workbench.n
 
 <!-- END RUN INFO -->
 
+This repository was created using a template from the [GLAM Workbench](https://glam-workbench.net/).
