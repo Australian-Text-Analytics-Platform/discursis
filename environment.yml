@@ -5,6 +5,7 @@ channels:
 dependencies:
   # Try to install everything via conda where possible,
   #   makes for simpler and quicker installs
+  - atap_widgets>=0.2.25
   - python=3.9
   - pandas
   - openpyxl
@@ -26,9 +27,5 @@ dependencies:
   - spacy-model-en_core_web_sm>=3.1
   - click
   - pip
-  - pip:
-     # TODO: install this through conda once it's a bit more
-     #   stable
-      - atap_widgets>=0.2.23
 variables:
   BINDER_EXTERNAL_URL: https://notebooks.gesis.org/
