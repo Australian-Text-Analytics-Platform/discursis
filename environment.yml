@@ -1,4 +1,4 @@
-name: atap
+name: discursis
 channels:
   - conda-forge
   - defaults
