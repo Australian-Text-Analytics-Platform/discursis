@@ -9,6 +9,8 @@ dependencies:
   - python=3.9
   - pandas
   - openpyxl
+  # xlsxwriter needed for atap_widgets exports
+  - xlsxwriter
   - matplotlib
   - jupytext
   - pre-commit
