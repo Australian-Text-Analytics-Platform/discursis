@@ -9,6 +9,8 @@ package.
 
 ## Notebooks
 
+The workshop material is in a Jupyter notebook under `notebooks/`.
+
 Click the Binder badge to open the notebook directly in Binder, a free online platform for hosting
 Jupyter notebooks:
 
