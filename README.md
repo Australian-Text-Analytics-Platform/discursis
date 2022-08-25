@@ -1,5 +1,7 @@
 # Intro to Discursis workshop
 
+THIS IS A DUMMY CHANGE TO FORCE A NEW COMMIT
+
 This repository contains material for a short workshop introducing the (new) Discursis tool,
 an analysis and visualisation tool for conversational data.
 
