@@ -34,12 +34,12 @@ jobs:
       - name: Validate notebooks
         # NOTE: probably need to run source activate for each CI step
         run: |
-          source activate atap
+          source activate discursis
           find ./notebooks \
             -name '*.ipynb' \
             -not -path '*/.ipynb_checkpoints/*' \
             | xargs -I file python validate_notebooks.py file
       - name: Execute notebooks
         run: |
-          source activate atap
+          source activate discursis
           pytest --nbmake notebooks
