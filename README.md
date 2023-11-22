@@ -15,7 +15,10 @@ Click the Binder badge to open the notebook directly in Binder, a free online pl
 Jupyter notebooks:
 
 * Intro to Discursis: [![Launch on Binder](https://mybinder.org/badge_logo.svg)](https://binderhub.atap-binder.cloud.edu.au/v2/gh/Australian-Text-Analytics-Platform/discursis/master/?urlpath=lab/tree/notebooks/discursis_workshop.ipynb)
-  * Backup Binder instance: [![Launch on Binder](https://mybinder.org/badge_logo.svg)](https://notebooks.gesis.org/binder/v2/gh/Australian-Text-Analytics-Platform/discursis/master/?urlpath=lab/tree/notebooks/discursis_workshop.ipynb)
+
+<b>Note:</b> CILogon authentication is required. You can use your institutional, Google or Microsoft account to login. If you have trouble authenticating, please refer to the [CILogon troubleshooting guide](cilogon-troubleshooting.pdf).
+
+* Backup Binder instance: [![Launch on Binder](https://mybinder.org/badge_logo.svg)](https://notebooks.gesis.org/binder/v2/gh/Australian-Text-Analytics-Platform/discursis/master/?urlpath=lab/tree/notebooks/discursis_workshop.ipynb)
 
 Current version: [v0.0.1](https://github.com/Australian-Text-Analytics-Platform/discursis/releases/tag/v0.0.1)
 
