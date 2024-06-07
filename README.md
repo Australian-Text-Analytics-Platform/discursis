@@ -7,6 +7,10 @@ If you want to install and use the Discursis tool in your own projects, see
 the [atap_widgets](https://github.com/Australian-Text-Analytics-Platform/atap_widgets)
 package.
 
+## User guide
+
+For a short introduction to the Discursis tool, please see the [user guide](https://raw.githubusercontent.com/Australian-Text-Analytics-Platform/discursis/master/docs/Discursis%20User%20Guide.pdf).
+
 ## Notebooks
 
 The notebooks demonstrating Discursis are in Jupyter notebooks under `notebooks/`.
