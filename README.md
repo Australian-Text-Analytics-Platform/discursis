@@ -1,7 +1,7 @@
-# Intro to Discursis workshop
+# Discursis: conversation analysis and visualisation
 
-This repository contains material for a short workshop introducing the (new) Discursis tool,
-an analysis and visualisation tool for conversational data.
+This repository contains notebooks to demonstrate Discursis, a conversational
+analysis and visualisation tool.
 
 If you want to install and use the Discursis tool in your own projects, see 
 the [atap_widgets](https://github.com/Australian-Text-Analytics-Platform/atap_widgets)
@@ -9,16 +9,16 @@ package.
 
 ## Notebooks
 
-The workshop material is in a Jupyter notebook under `notebooks/`.
+The notebooks demonstrating Discursis are in Jupyter notebooks under `notebooks/`.
 
-Click the Binder badge to open the notebook directly in Binder, a free online platform for hosting
+Click the Binder badge to open a demo notebook directly in Binder, an online platform for hosting
 Jupyter notebooks:
 
-* Intro to Discursis: [![Launch on Binder](https://mybinder.org/badge_logo.svg)](https://binderhub.atap-binder.cloud.edu.au/v2/gh/Australian-Text-Analytics-Platform/discursis/master/?urlpath=lab/tree/notebooks/discursis_workshop.ipynb)
+* Intro to Discursis: [![Launch on Binder](https://mybinder.org/badge_logo.svg)](https://binderhub.atap-binder.cloud.edu.au/v2/gh/Australian-Text-Analytics-Platform/discursis/master/?urlpath=lab/tree/notebooks/discursis_demo.ipynb)
 
 <b>Note:</b> CILogon authentication is required. You can use your institutional, Google or Microsoft account to login. If you have trouble authenticating, please refer to the [CILogon troubleshooting guide](cilogon-troubleshooting.pdf).
 
-* Backup Binder instance: [![Launch on Binder](https://mybinder.org/badge_logo.svg)](https://notebooks.gesis.org/binder/v2/gh/Australian-Text-Analytics-Platform/discursis/master/?urlpath=lab/tree/notebooks/discursis_workshop.ipynb)
+* Backup Binder instance: [![Launch on Binder](https://mybinder.org/badge_logo.svg)](https://notebooks.gesis.org/binder/v2/gh/Australian-Text-Analytics-Platform/discursis/master/?urlpath=lab/tree/notebooks/discursis_demo.ipynb)
 
 Current version: [v0.0.1](https://github.com/Australian-Text-Analytics-Platform/discursis/releases/tag/v0.0.1)
 
