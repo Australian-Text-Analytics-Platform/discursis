@@ -21,7 +21,7 @@ dependencies:
   - black[jupyter]
   - bokeh
   - jupyter_bokeh
-  - pytest==8.3.5 # irrelevant, but trigger binder hub to rebuild the image.
+  - pytest
   - nbmake
   - nbqa
   - nbval
