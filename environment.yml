@@ -32,6 +32,6 @@ dependencies:
     # Textacy currently not on conda-forge for arm64,
     # hopefully should be fixed soon
     - textacy==0.12.0
-    - atap_widgets==0.4.0
+    - atap_widgets==0.5.4
 variables:
   BINDER_EXTERNAL_URL: https://notebooks.gesis.org/
