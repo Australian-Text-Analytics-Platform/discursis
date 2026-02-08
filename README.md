@@ -18,9 +18,9 @@ The notebooks demonstrating Discursis are in Jupyter notebooks under `notebooks/
 Click the Binder badge to open a demo notebook directly in Binder, an online platform for hosting
 Jupyter notebooks:
 
-* Intro to Discursis: [![Launch on Binder](https://mybinder.org/badge_logo.svg)](https://binderhub.atap-binder.cloud.edu.au/v2/gh/Australian-Text-Analytics-Platform/discursis/master/?urlpath=lab/tree/notebooks/discursis_demo.ipynb)
+* Intro to Discursis: [![Launch on Binder](https://binderhub.rc.nectar.org.au/badge_logo.svg)](https://binderhub.rc.nectar.org.au/v2/gh/Australian-Text-Analytics-Platform/discursis/master/?urlpath=lab/tree/notebooks/discursis_demo.ipynb)
 
-<b>Note:</b> CILogon authentication is required. You can use your institutional, Google or Microsoft account to login. If you have trouble authenticating, please refer to the [CILogon troubleshooting guide](cilogon-troubleshooting.pdf).
+<b>Note:</b> Note: Australian Access Federation (AAF) or Reannz Tuakiri (NZ) authentication is required. If you do not have access to AAF or NZ, you can use the below link to access the tool (this is a free Binder version, limited to 2GB memory only).
 
 * Backup Binder instance: [![Launch on Binder](https://mybinder.org/badge_logo.svg)](https://notebooks.gesis.org/binder/v2/gh/Australian-Text-Analytics-Platform/discursis/master/?urlpath=lab/tree/notebooks/discursis_demo.ipynb)
 
@@ -35,9 +35,9 @@ There are a number of different ways to use these notebooks. Binder is quickest 
 
 ### Using Binder
 
-[![Launch on Binder](https://mybinder.org/badge_logo.svg)](https://binderhub.atap-binder.cloud.edu.au/v2/gh/Australian-Text-Analytics-Platform/discursis/master/?urlpath=lab/tree/index.md)
+[![Launch on Binder](https://mybinder.org/badge_logo.svg)](https://binderhub.rc.nectar.org.au/v2/gh/Australian-Text-Analytics-Platform/discursis/master/?urlpath=lab/tree/index.md)
 
-Click on the button above to launch the notebooks in this repository using the [Binder](https://mybinder.org/) service (it might take a little while to load). This is a free service, but note that sessions will close if you stop using the notebooks, and no data will be saved. Make sure you download any changed notebooks or harvested data that you want to save.
+Click on the button above to launch the notebooks in this repository using the [ARDC Nectar BinderHub](https://mybinder.org/) service. This is a free service provided to Australian and Kiwi researchers, but note that sessions will close if you stop using the notebooks, and no data will be saved. Make sure you download any changed notebooks or harvested data that you want to save.
 
 See [Using Binder](https://glam-workbench.net/using-binder/) for more details.
 
