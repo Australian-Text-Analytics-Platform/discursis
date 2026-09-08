@@ -22,7 +22,7 @@ Jupyter notebooks:
 
 <b>Note:</b> Note: Australian Access Federation (AAF) or Reannz Tuakiri (NZ) authentication is required. If you do not have access to AAF or NZ, you can use the below link to access the tool (this is a free Binder version, limited to 2GB memory only).
 
-* Backup Binder instance: [![Launch on Binder](https://mybinder.org/badge_logo.svg)](https://notebooks.gesis.org/binder/v2/gh/Australian-Text-Analytics-Platform/discursis/master/?urlpath=lab/tree/notebooks/discursis_demo.ipynb)
+* Backup Binder instance: [![Launch on Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Australian-Text-Analytics-Platform/discursis/master?urlpath=%2Fdoc%2Ftree%2Fnotebooks%2Fdiscursis_demo.ipynb)
 
 Current version: [v0.0.1](https://github.com/Australian-Text-Analytics-Platform/discursis/releases/tag/v0.0.1)
 
